@@ -6,76 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keyworlds" content="кинематограф, съёмки, видео, постановка видео"> 
     <meta name="Как снять фильм">
+    <link rel="stylesheet" href="styles.css">
     <title>Режиссёр-постановщик</title>
 </head>
+<body>
 
-    <h1>ANDREY SPOR</h1>
+    <div class="container">
 
-    <img src="https://sun9-east.userapi.com/sun9-27/s/v1/if1/TngrUtPaKBvVMQ_cSPeVuiNxpLL0zl_dICj_H_aEmFHGgtEKjsmWcWJrtBBSqVuOGzZZvHPM.jpg?size=1280x853&quality=96&type=album" width="300" alt="Аватар автора">
+        <div class="info">
+            <img src="Аватар.jpg" alt="Аватар автора" class="avatar">
 
-    <p> Создаю <strong>искуство</strong></p>  
-    <p> Занимаюсь <em> <strong>музыкой и видео</strong> </em> </p>
+            <div class="info-text">
+                <h1>ANDREY SPOR</h1>
 
-    <a href="https://vk.com/non_spor" target="_blank">Моя страница в Контакте</a>
+                <p> Создаю <strong>искуство</strong></p>  
+                <p> Занимаюсь <em> <strong>музыкой и видео</strong> </em> </p>
 
-    <hr>
+                <h3>Список социальных сетей:</h3>
 
-    <h1>Мои хобби</h1>
+                <a href="https://vk.com/non_spor" target="_blank">Моя страница в Контакте</a>
 
-    <ul>
-        <li>Ремонт оборудования</li>
-        <li>Установака лицензионного ПО</li>
-        <li>Звукорежиссёр</li>
-        <li>Петь РЭП</li>
-        <li>Плавание</li>
-    </ul>
+                </div>    
+            </div>
 
-    <hr>
+            <div class="card bg-green">
 
-    <table>
-        <thead>
-            <tr>  
-              <th>Имя</th>
-              <th>Возраст</th>
-              <th>Работа</th>
-          </tr>
-        </thead>
-        <tbody>
-         <tr>
-           <td>Андрей</td>
-           <td>38</td>
-           <td>Звукорежиссёр</td>
-         </tr>
-       </tbody>     
-    </table>   
-    <hr>
+                <h2>Мои хобби</h2>
 
-    <h1>Связаться со мной</h1>
+                <ol class="list">
+                    <li>Ремонт оборудования</li>
+                    <li>Установака лицензионного ПО</li>
+                    <li>Звукорежиссёр</li>
+                    <li>Петь РЭП</li>
+                    <li>Плавание</li>
+                </ol>
+            </div>
 
-    <form>
-     <div>
-        <label for="text">Ваше имя:</label>
-        <input type="text" id="text" placeholder="Введите имя"> 
-      </div>
+            <form action="/" class="form"> 
+                <h2>Связаться со мной</h2>
 
-      <div>
-        <label for="email">Ваш Email:</label>
-        <input type="email" id="email" placeholder="Ввеите email"> 
-     </div>
+                <div class="form-row">
+                    
+                    <div class="form-group">
+                        <label for="text">Ваше имя:</label>
+                        <input type="text" id="text" placeholder="Введите имя"> 
+                    </div>
 
-     <div>
-       <label for="message">Ваше сообщение</label>
-       <br>
-       <textarea id="message" cols="25" rows="5"></textarea>
+                    <div class="form-group">
+                        <label for="email">Ваш Email:</label>
+                        <input type="email" id="email" placeholder="Ввеите email"> 
+                    </div>
+                </div>
 
-      </div>
+                <div class="form-group">
+                    <label for="message">Ваше сообщение</label>
+                    <textarea id="message" cols="25" rows="5" placeholder="Введите сообщение"></textarea>
+                </div>
 
-      <button type="submit">Отправить форму</button>
+                <button class="btn">Отправить форму</button>
 
 
 
 
-    </form>
+            </form>
 
 
 
@@ -83,11 +76,6 @@
 
 
 
-
+        </div>
 </body>
-    
-    
-
-
-
 </html>
